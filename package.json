@@ -1,0 +1,35 @@
+{
+  "name": "amqpExamples",
+  "version": "0.0.1",
+  "author": "Volodymyr Mordas",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "lodash": "^4.17.4",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/node": "^8.0.52",
+    "jest": "^22.0.5",
+    "jest-each": "^0.3.1",
+    "ts-jest": "^22.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(.*(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
